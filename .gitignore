@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Cache de pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Subidas temporales
+uploads/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Modelos YOLO o pesos pesados
+weights/*.pt
+
+# Cache de torch/huggingface
+~/.cache/
